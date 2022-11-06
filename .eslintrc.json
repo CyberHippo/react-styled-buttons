@@ -4,8 +4,7 @@
     "plugin:import/errors",
     "plugin:react/recommended",
     "plugin:jsx-a11y/recommended",
-    "prettier",
-    "prettier/react"
+    "prettier"
   ],
   "rules": {
     "react/prop-types": 0,
@@ -15,10 +14,11 @@
     "jest/no-focused-tests": "error",
     "jest/no-identical-title": "error",
     "jest/prefer-to-have-length": "warn",
-    "jest/valid-expect": "error"
+    "jest/valid-expect": "error",
+    "react/no-unknown-property": ["error", { "ignore": ["css"] }]
   },
-  "parser": "babel-eslint",
-  "plugins": ["react", "import", "jsx-a11y", "react-hooks", "emotion", "jest"],
+  "parser": "@babel/eslint-parser",
+  "plugins": ["react", "import", "jsx-a11y", "react-hooks", "@emotion", "jest"],
   "parserOptions": {
     "ecmaVersion": 2018,
     "sourceType": "module",

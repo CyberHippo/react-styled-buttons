@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
-import { css } from "@emotion/core";
+import { css } from "@emotion/react";
 import chroma from "chroma-js";
 
 import defaultTheme from "../theme";

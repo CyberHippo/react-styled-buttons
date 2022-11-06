@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from 'react-dom/client';
 
 import Buttons from "./ui/Buttons";
 
@@ -8,4 +8,6 @@ function App() {
   return <Buttons mode={mode} setMode={setMode} />;
 }
 
-ReactDOM.render(<App />, document.getElementById("root"));
+const container = document.getElementById('app');
+const root = createRoot(container);
+root.render(<App />);

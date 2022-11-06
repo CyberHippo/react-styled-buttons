@@ -1,24 +1,5 @@
 # React Styled Buttons
 
-<p align="center">
-  <a href="https://travis-ci.org/mariiinda/react-styled-buttons" target="_blank">
-    <img src="https://api.travis-ci.org/mariiinda/react-styled-buttons.svg?branch=master" alt="">
-    </a>
-  <a href="https://www.npmjs.com/package/@marinda/react-styled-buttons" target="_blank">
-    <img src="https://badgen.net/npm/v/@marinda/react-styled-buttons" alt="">
-    </a>
-  <a href="LICENSE.md" target="_blank">
-    <img src="https://badgen.net/badge/license/ISC/blue" alt="">
-  </a>
-  <a href="https://www.npmjs.com/package/@marinda/react-styled-buttons" target="_blank">
-    <img src="https://badgen.net/npm/dt/@marinda/react-styled-buttons" alt="">
-  </a>
-  <a href="https://marinda.me/react-styled-buttons/?path=/story/components-button--primary" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg" alt="">
-  </a>
-</p>
-
-
 React button components with WCAG 2 AA contrast ratio tested colors, light and dark theme options. Flexible & easily customized.
 
 Uses a theme based on [System UI Theme Specification](https://system-ui.com/theme/) & can be overriden by passing in your own theme as a prop.
@@ -30,13 +11,13 @@ If you are using emotion, styles can also be overriden via [composition](https:/
 Install.
 
 ```sh
-npm i -S @marinda/react-styled-buttons
+npm i -S @cyberhippo/react-styled-buttons
 ```
 
 Import the Button component into your app:
 
 ```js
-import { Button } from '@marinda/react-styled-buttons';
+import { Button } from '@cyberhippo/react-styled-buttons';
 ```
 
 Add Button to your render function.
@@ -125,7 +106,7 @@ Sets button to disabled.
 </Button>
 ```
 
-### 
+###
 
 Disables button animation on hover & click.
 
